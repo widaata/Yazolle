@@ -42,7 +42,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Agreement to Terms</h2>
               <p className="text-gray-700 leading-relaxed">
-                By accessing or using Yazolle's website and services, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our services.
+                By accessing or using Yazolle&apos;s website and services, you agree to be bound by these Terms of Service (&quot;Terms&quot;). If you do not agree to these Terms, please do not use our services.
               </p>
             </section>
 
@@ -128,7 +128,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Disclaimers</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Our services are provided "as is" without warranties of any kind. We do not guarantee:
+                Our services are provided &quot;as is&quot; without warranties of any kind. We do not guarantee:
               </p>
               <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4">
                 <li>Mortgage approval or funding availability</li>
@@ -171,7 +171,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Changes to Terms</h2>
               <p className="text-gray-700 leading-relaxed">
-                We may modify these Terms at any time. We will notify you of any material changes by posting the updated Terms on our website and updating the "Last Updated" date. Your continued use of our services after such changes constitutes acceptance of the new Terms.
+                We may modify these Terms at any time. We will notify you of any material changes by posting the updated Terms on our website and updating the &quot;Last Updated&quot; date. Your continued use of our services after such changes constitutes acceptance of the new Terms.
               </p>
             </section>
 

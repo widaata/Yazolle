@@ -19,6 +19,7 @@ interface ExpenseFieldProps {
   amountField: string;
   providerField: string;
   providerOtherField: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   formData: any;
   updateField: (field: string, value: string) => void;
 }
@@ -180,9 +181,11 @@ export default function WaitlistForm() {
         phoneProvider: '',
         phoneProviderOther: ''
       });
-    } catch (error: any) {
-      setStatus('error');
-      setErrorMessage(error.message);
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        setStatus('error');
+        setErrorMessage(error.message);
+      }
     }
   };
 
@@ -198,9 +201,9 @@ export default function WaitlistForm() {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <h3 className="text-2xl font-semibold text-gray-900 mb-2">You're on the list!</h3>
+        <h3 className="text-2xl font-semibold text-gray-900 mb-2">You&apos;re on the list!</h3>
         <p className="text-gray-600 mb-6">
-          Thank you for joining Yazolle's waitlist. We'll be in touch soon to discuss your interest-free mortgage options.
+          Thank you for joining Yazolle&apos;s waitlist. We&apos;ll be in touch soon to discuss your interest-free mortgage options.
         </p>
         <button
           onClick={() => setStatus('idle')}

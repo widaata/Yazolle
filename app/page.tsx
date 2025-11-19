@@ -78,7 +78,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Join the Waitlist</h3>
               <p className="text-gray-600">
-                Tell us about your home buying goals, income, and target budget. We'll review your information to ensure you qualify.
+                Tell us about your home buying goals, income, and target budget. We&apos;ll review your information to ensure you qualify.
               </p>
             </div>
             
@@ -88,7 +88,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Get Approved</h3>
               <p className="text-gray-600">
-                Once qualified, we'll work with you to finalize your application and connect your financial information securely.
+                Once qualified, we&apos;ll work with you to finalize your application and connect your financial information securely.
               </p>
             </div>
             
@@ -114,7 +114,7 @@ export default function Home() {
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Join our waitlist today and take the first step toward interest-free homeownership. 
-              We'll review your information and get in touch with next steps.
+              We&apos;ll review your information and get in touch with next steps.
             </p>
           </div>
           

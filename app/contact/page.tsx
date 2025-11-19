@@ -33,7 +33,7 @@ export default function ContactPage() {
         <div className="prose prose-lg max-w-none">
           <div className="bg-gray-50 p-8 rounded-lg border border-gray-200 mb-8">
             <p className="text-gray-700 leading-relaxed mb-6">
-              We're here to help answer any questions you may have about Yazolle's interest-free mortgage platform. Whether you're curious about how the process works, eligibility requirements, or anything else, our support team is ready to assist you.
+              We&apos;re here to help answer any questions you may have about Yazolle&apos;s interest-free mortgage platform. Whether you&apos;re curious about how the process works, eligibility requirements, or anything else, our support team is ready to assist you.
             </p>
             
             <div className="bg-white p-6 rounded-lg border border-gray-300 mb-6">
@@ -61,12 +61,12 @@ export default function ContactPage() {
             
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Response Time</h2>
             <p className="text-gray-700 mb-4">
-              Our team typically responds to all inquiries within 1-2 business days. During peak periods, response times may be slightly longer, but we'll get back to you as soon as possible.
+              Our team typically responds to all inquiries within 1-2 business days. During peak periods, response times may be slightly longer, but we&apos;ll get back to you as soon as possible.
             </p>
             
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Before You Contact Us</h2>
             <p className="text-gray-700 mb-4">
-              You might find answers to common questions on our main page under the "How It Works" section. For detailed information about our policies, please review our <Link href="/privacy" className="text-green-600 hover:text-green-700">Privacy Policy</Link> and <Link href="/terms" className="text-green-600 hover:text-green-700">Terms of Service</Link>.
+              You might find answers to common questions on our main page under the &quot;How It Works&quot; section. For detailed information about our policies, please review our <Link href="/privacy" className="text-green-600 hover:text-green-700">Privacy Policy</Link> and <Link href="/terms" className="text-green-600 hover:text-green-700">Terms of Service</Link>.
             </p>
           </div>
         </div>

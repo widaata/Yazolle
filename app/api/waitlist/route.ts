@@ -94,15 +94,17 @@ export async function POST(request: Request) {
       { status: 201 }
     );
     
-  } catch (error: any) {
-    console.error('Waitlist submission error:', error);
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      console.error('Waitlist submission error:', error);
     
-    // Handle duplicate email
-    if (error.message?.includes('UNIQUE constraint failed')) {
-      return NextResponse.json(
-        { error: 'This email is already on the waitlist' },
-        { status: 409 }
-      );
+      // Handle duplicate email
+      if (error.message?.includes('UNIQUE constraint failed')) {
+        return NextResponse.json(
+          { error: 'This email is already on the waitlist' },
+          { status: 409 }
+        );
+      }
     }
     
     return NextResponse.json(

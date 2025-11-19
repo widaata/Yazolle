@@ -37,7 +37,7 @@ export default function AboutPage() {
             </p>
             
             <p className="text-gray-700 leading-relaxed mb-4">
-              We've reimagined the traditional mortgage model by creating a sustainable platform that benefits both home buyers and our partner companies. Through our unique business model, third-party companies fund interest-free mortgages by gaining access to valuable consumer spending insights, all with full transparency and consumer consent.
+              We&apos;ve reimagined the traditional mortgage model by creating a sustainable platform that benefits both home buyers and our partner companies. Through our unique business model, third-party companies fund interest-free mortgages by gaining access to valuable consumer spending insights, all with full transparency and consumer consent.
             </p>
             
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Our Mission</h2>
@@ -55,7 +55,7 @@ export default function AboutPage() {
             
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Why Yazolle?</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Traditional mortgages can cost home buyers hundreds of thousands of dollars in interest over the life of the loan. We're changing that by introducing a first of its kind home loan for American home buyers which only includes a one time markup on the price of your home. Our a rent-to-own model means that we purchase your desired home and you pay a fixed amount for the entire duration of your loan. It's a revolutionary approach to an age-old problem!
+              Traditional mortgages can cost home buyers hundreds of thousands of dollars in interest over the life of the loan. We&apos;re changing that by introducing a first of its kind home loan for American home buyers which only includes a one time markup on the price of your home. Our a rent-to-own model means that we purchase your desired home and you pay a fixed amount for the entire duration of your loan. It&apos;s a revolutionary approach to an age-old problem!
             </p>
           </div>
         </div>
