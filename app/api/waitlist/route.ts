@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { db } from '@/db';
+import { db } from '@/db/index';
 import { waitlistEntries } from '@/db/schema';
 
 export const runtime = 'nodejs';
